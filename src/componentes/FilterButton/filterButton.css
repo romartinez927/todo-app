@@ -1,0 +1,14 @@
+.filter-btn {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    padding-inline: 5em
+}
+
+.filters {
+    width: 608px;
+    height: auto;
+    border-bottom: 1px solid #BDBDBD;
+}
