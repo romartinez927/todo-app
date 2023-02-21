@@ -26,6 +26,7 @@
     appearance: none;
     border: 1px solid #828282;
     border-radius: 4px;
+    margin-bottom: -.3em;
 }
 
 .checkbox:checked {

@@ -40,13 +40,7 @@ function App(props) {
   ))
 
   function addTask(name) {
-    // name es un string, y task es un array de objetos, por lo que si lo dejamos así,
-    // el string reemplazará al array. Por esto, necesitamos (primero) poner a name
-    // en un objeto que tenga la misma estructura que los tasks ya existentes. (newTask)
     const newTask = { id: `todo-${nanoid()}`, name, completed: false }
-    // Segundo, necesitamos hacer un nuevo array con este nuevo task y los anteriores,
-    // por lo que se usa spread syntax para copiar el array existente, y agregar nuestro 
-    // nuevo objeto al final.
     setTasks([...tasks, newTask])
   }
 
@@ -66,7 +60,7 @@ function App(props) {
   }
 
   return (
-    <div className="todoapp">
+    <div className="todoapp container-fluid">
       <Brand />
       <div className="filters container-fluid text-center">
         {filterList}

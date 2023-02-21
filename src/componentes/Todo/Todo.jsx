@@ -21,7 +21,7 @@ export default function Todo(props) {
                         className="btn"
                         onClick={() => props.deleteTask(props.id)} 
                 >
-                        <span class="material-icons material-symbols-outlined">
+                        <span className="material-icons material-symbols-outlined">
                             delete
                         </span>
                         <span className="visually-hidden">{props.name}</span>

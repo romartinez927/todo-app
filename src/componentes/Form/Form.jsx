@@ -14,19 +14,19 @@ export default function Form(props) {
     const handleChange = (e) => setName(e.target.value)
 
     return(
-        <form onSubmit={handleSubmit} className="form pt-2 text-center">
+        <form onSubmit={handleSubmit} className="form container-fluid justify-content-center row pt-2 text-center">
             <label htmlFor="form-input"></label>
             <input
                 type="text"
                 id="form-input"
-                className="input form-input"
+                className="input form-input col-md-5 col-xl-4"
                 name="text"
                 autoComplete="off"
                 placeholder="add details"
                 value={name}
                 onChange={handleChange}
             />
-            <button type="submit" className="btn form-btn">
+            <button type="submit" className="btn form-btn col-md-1 col-xl-1">
                 Add
             </button>
         </form>
