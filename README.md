@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](./public/images/screenshot.png)
+![screenshot](./public/screenshot.png)
 
 Buenas! Soy Rosario y este es mi solución para el desafío de Devchallenge
 
