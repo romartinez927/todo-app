@@ -2,10 +2,10 @@
     list-style: none;
 }
 
-.todo-list {
-    padding-left: 0;
-    width: 608px;
-    height: auto;
+.todo-container {
+    height: 100%;
+    width: 30em;
+
 }
 
 .todo-label {
@@ -15,6 +15,7 @@
     font-size: 18px;
     line-height: 22px;
     color: #000000;
+    
 }
 
 .checkbox {
@@ -30,5 +31,9 @@
 }
 
 .checkbox:checked {
-    background-color: #2F80ED
+    background-color: #2F80ED;
   }
+
+.checked {
+    text-decoration:line-through
+}

@@ -18,3 +18,9 @@
     color: #FFFFFF;
     margin-left: 1.5em;
 }
+
+@media (max-width: 575.98px) { 
+    .form-btn {
+        margin-top: 0.5em;
+    }
+ }

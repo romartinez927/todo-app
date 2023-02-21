@@ -62,18 +62,19 @@ function App(props) {
   return (
     <div className="todoapp container-fluid">
       <Brand />
-      <div className="filters container-fluid text-center">
+      <div className="filters container-fluid text-center row justify-content-center">
         {filterList}
       </div>
-      <Form addTask={addTask} />
-      <div className="justify-content-center">
-        <ul
-          role="list"
-          className="todo-list container-fluid justify-content-center"
-          aria-labelledby="list-heading">
-          {taskList}
-        </ul>
-      </div>
+      <main>
+        <Form addTask={addTask} />
+        <div className="justify-content-center">
+          <ul
+            className="todo-list container-fluid justify-content-center"
+            aria-labelledby="list-heading">
+            {taskList}
+          </ul>
+        </div>
+      </main>
       <Footer />
     </div>
   );
